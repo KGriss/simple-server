@@ -16,19 +16,19 @@ body
 	font-size: 1.1em;
 	color: cyan;
 	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
 }
 
 h1
 {
 	font-size: 1.5em;
-	text-align: center;
 	font-weight: bold;
 }
 
 h2
 {
 	font-size: 1em;
-	text-align: center;
 	margin-top: -10px;
 	font-weight: bold;
 }
@@ -42,17 +42,26 @@ header
 
 h3
 {
-	text-align: center;
 	font-weight: bold;
 }
 
 .img
 {
 	margin-top: 50px;
-	text-align: center;
 }
 
 img
 {
 	width: 400px;
+}
+
+p, a
+{
+	font-size: 1em;
+}
+
+a:hover
+{
+	font-size: 1.01em;
+	color: blue;
 }
