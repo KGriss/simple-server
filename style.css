@@ -1,0 +1,104 @@
+body
+{
+	background-color: #36393F;
+	/*background-image: url("images/bkg.png");*/
+}
+
+#page
+{
+	max-width: 1100px;
+	/*background-color: red;*/
+	margin: auto;
+	/*position: relative;*/
+	text-align: center;
+}
+
+*
+{
+	font-family: verdana, sans-serif;
+	color: #DCDDDE;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+h1
+{
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+h2
+{
+	font-size:1.5em;
+	margin-top: -10px;
+	font-weight: bold;
+}
+
+header
+{
+	padding-top: 5px;
+	padding-bottom: 20px;
+	border-bottom: solid #42454A 3px;
+}
+
+h3
+{
+	font-weight: bold;
+	font-size: 1.8em;
+}
+
+/*.img
+{
+	margin-top: 50px;
+}*/
+
+img
+{
+	width: 400px;
+}
+
+p
+{
+	font-size: 1.2em;
+	margin-bottom: 25px;
+}
+
+a
+{
+	font-size: 1.2em;
+	color: #1C96B3;
+}
+
+a:hover
+{
+	/*font-size: 1.01em;*/
+	text-decoration: underline;
+}
+
+#bloc_regle
+{
+	/*background-color: red;*/
+	font-size: 1.1em;
+	text-align: left;
+	width: 50%;
+	margin: auto;
+}
+
+#regle
+{
+	text-decoration: underline;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.salon
+{
+	background-color: #3C414F;
+	color: #7289BF;
+}
+
+.salon:hover
+{
+	background-color: #4F5A80;
+	color: #FFFFF2;
+}
